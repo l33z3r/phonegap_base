@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  -webkit-highlight: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.h5 {
+  height: 5% !important; }
+
+.h10 {
+  height: 10% !important; }
+
+.h20 {
+  height: 16% !important; }
+
+.h25 {
+  height: 25% !important; }
+
+.h30 {
+  height: 30% !important; }
+
+.h40 {
+  height: 40% !important; }
+
+.h50 {
+  height: 50% !important; }
+
+.h60 {
+  height: 60% !important; }
+
+.h70 {
+  line-height: 70% !important;
+  height: 70% !important; }
+
+.h80 {
+  line-height: 80% !important;
+  height: 80% !important; }
+
+.h90 {
+  height: 90% !important; }
+
+.h100 {
+  height: 100% !important; }
+
+.scrollable {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; }
+
+/* iOS specific fix, don't use it on Android devices */
+.button {
+  border: 1px solid #333333;
+  text-align: center;
+  background-color: #dddddd;
+  cursor: pointer;
+  float: left;
+  font-weight: bold;
+  min-height: 40px; }
+  .button.highlight {
+    background-color: #aaaaaa; }

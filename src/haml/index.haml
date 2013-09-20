@@ -1,0 +1,27 @@
+!!!
+%html
+  %head
+    %title PhOnEgAp
+
+    %link{:rel => "stylesheet", :type => "text/css", :href => "stylesheets/style.css"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "stylesheets/bootstrap.min.css"}
+
+    %script{:src => "javascripts/plugins/jquery-2.0.2.min.js", :type => "text/javascript"}
+    %script{:src => "javascripts/application.js"}
+    %script{:src => "javascripts/phonegap_functions.js"}
+
+    %script{:src => "javascripts/plugins/fastclick.js"}
+    %script{:src => "cordova.js"}
+
+  %body.container-fluid{:id => "app_body", :onload => "appInit();"}
+    .row-fluid.h100
+      .row-fluid.h25
+
+      .row-fluid.h50
+        #left_button.button.span6.h100
+          Left
+
+        #right_button.button.span6.h100
+          Right
+
+      .row-fluid.h25
